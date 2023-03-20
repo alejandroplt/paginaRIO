@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;500&display=swap');
+
+*{
+    font-family: 'Nunito', sans-serif;
+}
+
+.main-header{
+    background: url(../img/Transicion\ 0.jpg);
+    background-size: cover;
+    min-height: 500px;
+}
+
+.background-overlay{
+    background-color: rgba(0, 0, 0, 0.55);
+    min-height: 500px;
+}
