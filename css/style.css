@@ -3,6 +3,8 @@
 *{
     font-family: 'Nunito', ;
 }
+
+/*ESTILOS HEADER */
 .bg-header{
     background-color: rgb(30, 30, 30, 0.5);
 }
@@ -10,14 +12,17 @@
     position: relative;
     background: url(../img/Transicion\ 0.jpg);
     background-size: cover;
-    height: 100vh;
+    background-position: center;
+    min-height: 90vh;
 }
 
 .background-overlay {
+    position: absolute;
     background: rgba(0, 0, 0, 0.5);
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    height: 100vh;
+    /*min-height: 100vh;*/
+
 }
