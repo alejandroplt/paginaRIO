@@ -29,7 +29,7 @@
 
 
 .carousel-item {
-    height: 90vh;
+    height: 80vh;
     background-size: cover;
     background-position: center;
     /*filter: brightness(50%);*/
@@ -37,7 +37,7 @@
 
 .carousel-caption{
     position: absolute;
-    top: 38%;
+    top: 10%;
 }
 
 .carousel-caption p, h1{
