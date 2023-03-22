@@ -28,7 +28,6 @@
 }*/
 
 .carousel-item {
-    height: 80vh;
     background-size: cover;
     background-position: center;
     /*filter: brightness(50%);*/
@@ -36,16 +35,23 @@
 
 .carousel-caption{
     position: absolute;
-    top: 25%;
+    top: 30%;
 }
 
-.carousel-caption p, h1{
+.carousel-caption h1{
     /*font-size: 3.8rem;
     font-weight: 700;
     letter-spacing: .3rem;
     padding-bottom: 1rem;*/
+    font-size: 3rem;
     text-shadow: .1rem .1rem .8rem black;
 }
+
+.carousel-caption p{
+    font-size: 1.3rem;
+    text-shadow: .1rem .1rem .8rem black;
+}
+
 
 
 
@@ -73,9 +79,8 @@
 
 @media (min-width: 576px) {
     .carousel-item {
-        height: 50vh;
+        height: 90vh;
     }
-    
 
 }
 
