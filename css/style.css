@@ -35,7 +35,7 @@
 
 .carousel-caption{
     position: absolute;
-    top: 30%;
+
 }
 
 .carousel-caption h1{
@@ -80,6 +80,9 @@
 @media (min-width: 576px) {
     .carousel-item {
         height: 90vh;
+    }
+    .carousel-caption{
+        top: 30%;
     }
 
 }
