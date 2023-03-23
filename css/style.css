@@ -4,6 +4,10 @@
     font-family: 'Nunito', sans-serif;
 }
 
+#header{
+    padding-top: 4%;
+}
+
 /*------------ESTILOS INICIO SLIDER ------*/
 /*.bg-header{
     background-color: rgb(30, 30, 30, 0.5);
