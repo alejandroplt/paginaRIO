@@ -85,7 +85,7 @@
 
 @media (min-width: 576px) {
     .carousel-item {
-        height: 90vh;
+        height: 80vh;
     }
     .carousel-caption .text-RIO{
         letter-spacing: 0px;
