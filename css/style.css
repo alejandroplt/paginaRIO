@@ -109,6 +109,7 @@ label{
 /*MEDIA QUERYS*/
 /*Small devices (landscape phones, 576px and up)*/
 @media (max-width: 576px) {
+    /*------------ESTILOS INICIO SLIDER ------*/
     .carousel-item {
         height: 50vh;
     }
@@ -128,9 +129,21 @@ label{
     .carousel-caption .text-RIO{
         letter-spacing: 0px;
     }
+
+    /*----------ESTILOS FRASE----------*/
+    .card-body h1{
+        font-size: 1.5rem;
+    }
+    .card-body p{
+        padding-top: 1rem;
+    }
+    .card-body p a{
+        font-size: .9rem;
+    }
 }
 
 @media (min-width: 576px) {
+    /*------------ESTILOS INICIO SLIDER ------*/
     .carousel-item {
         height: 90vh;
     }
@@ -138,6 +151,10 @@ label{
         letter-spacing: 0px;
     }
 
+    /*----------ESTILOS FRASE----------*/
+    .card-body p{
+        padding-top: 3rem;
+    }
 }
 
 
