@@ -107,7 +107,7 @@ label{
 
 
 
-/*------ESTILOS SCROLL-----*/
+/*------ESTILOS SCROLL-----
 .fadeTop {
     opacity: 0;
     transform: translate(0, 10vh);
@@ -130,7 +130,7 @@ label{
     opacity: 1;
     transform: translate(0, 0);
 }
-
+*/
 
 
 
