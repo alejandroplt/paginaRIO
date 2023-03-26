@@ -6,6 +6,7 @@
     --color-semiBlack: #121212;
     --color-BajoSubtitulos: #D9D9D9;
     --color-seccionW: rgb(216, 216, 216, .34);
+    --color-somos: rgb(217,217,217,.50);
 }
 
 *{
@@ -79,7 +80,9 @@ label{
 }
 
 /*----SECION PRODUCTOS--*/
-
+.card-img-top{
+    width:200px !important;
+}
 
 
 
@@ -93,6 +96,13 @@ label{
 .card {
     background-size: cover;
     background-position: center;
+}
+
+
+/*------------ESTILOS CONOCENOS-----*/
+.quienes{
+    background-color: var(--color-somos);
+    border-radius: 50px;
 }
 
 
