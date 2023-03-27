@@ -98,6 +98,9 @@ label{
 /*Small devices (landscape phones, 576px and up)*/
 @media (max-width: 576px) {
     /*------------ESTILOS INICIO SLIDER ------*/
+    body {
+        overflow: overlay;
+    }
     .carousel-item {
         height: 50vh;
     }
