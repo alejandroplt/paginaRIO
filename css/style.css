@@ -99,7 +99,7 @@ label{
 @media (max-width: 576px) {
     /*------------ESTILOS INICIO SLIDER ------*/
     body {
-        overflow: overlay;
+        overflow: hidden;
     }
     .carousel-item {
         height: 50vh;
