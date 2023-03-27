@@ -38,10 +38,6 @@ label{
     top: 30%;
 }
 
-.carousel-caption-slider2{
-    top: 20%;
-}
-
 .carousel-caption h1{
     /*font-size: 3.8rem;
     font-weight: 700;
@@ -57,22 +53,6 @@ label{
     text-shadow: .1rem .1rem .8rem black;
 }
 
-/*.carousel-caption li{
-    color: #FFC107;
-    font-size: 2.3rem;
-}
-
-.carousel-caption li span{
-    color: white;
-    font-size: 2.3rem;
-    text-shadow: .1rem .1rem .8rem black;
-}*/
-
-
-
-
-
-
 /*--- COLOR GENERAL SECCION --*/
 
 .subtitulos-bajoB{
@@ -80,57 +60,30 @@ label{
 }
 
 /*----SECION PRODUCTOS--*/
-.card-img-top{
-    width:200px !important;
-}
 
 
 
 
 
 /*----------ESTILOS FRASE----------*/
+.parallax-window .card-body{
+    padding: 6rem 3rem 6rem 3rem;
+}
+
 .text-frase{
     text-shadow: .1rem .1rem .8rem black;
 }
 
-.card {
-    background-size: cover;
-    background-position: center;
-}
 
 
 /*------------ESTILOS CONOCENOS-----*/
+.img-nosotros{
+    margin-top: 20%;
+}
 .quienes{
     background-color: var(--color-somos);
     border-radius: 50px;
 }
-
-
-
-/*------ESTILOS SCROLL-----
-.fadeTop {
-    opacity: 0;
-    transform: translate(0, 10vh);
-    transition: all 1s;
-}
-
-.fadeRight {
-    opacity: 0;
-    transform: translate(10vh, 0vh);
-    transition: all 1s;
-}
-
-.fadeLeft {
-    opacity: 0;
-    transform: translate(-10vh, 0vh);
-    transition: all 1s;
-}
-
-.visible {
-    opacity: 1;
-    transform: translate(0, 0);
-}
-*/
 
 
 

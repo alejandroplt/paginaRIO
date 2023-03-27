@@ -1,4 +1,3 @@
-
 /*DISLAZAMIENTO DEL SCROLL*/
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
