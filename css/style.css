@@ -60,7 +60,12 @@ label{
 }
 
 /*----SECION PRODUCTOS--*/
-
+.img-producto{
+    border-radius: 2em !important;
+}
+.card{
+    border-radius: 2em !important;
+}
 
 
 /*----SECION SERVICIOS--*/
