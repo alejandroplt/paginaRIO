@@ -99,6 +99,10 @@ label{
     border-radius: 50px;
 }
 
+.bg-sobrenosotros{
+    background-color: var(--color-seccionW);
+}
+
 
 
 /*---------ESTILOS FOOTER-------->*/
