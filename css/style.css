@@ -88,6 +88,10 @@ label{
     text-shadow: .1rem .1rem .8rem black;
 }
 
+hr{
+    height: 4px !important;
+}
+
 
 
 /*------------ESTILOS CONOCENOS-----*/
