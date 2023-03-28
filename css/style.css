@@ -63,6 +63,15 @@ label{
 
 
 
+/*----SECION SERVICIOS--*/
+.servicios{
+    color: white;
+}
+
+.bg-card-servicios{
+    background-color: var(--color-somos) !important;
+}
+
 
 
 /*----------ESTILOS FRASE----------*/
