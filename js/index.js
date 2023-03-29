@@ -9,19 +9,19 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
+
+/*JS PARA EL FUNCIONAMIENTO DEL BOTON IR ARRIBA*/
 window.onscroll = function(){
     if(document.documentElement.scrollTop > 100) {
-      document.querySelector('.go-top-container').classList.add('show');
-       
+        document.querySelector('.go-top-container').classList.add('show');
     }
     else{
-      document.querySelector('.go-top-container').classList.remove('show');
+        document.querySelector('.go-top-container').classList.remove('show');
     }
-  }
-   
-  document.querySelector('.go-top-container').addEventListener('click', () => {
+}
+document.querySelector('.go-top-container').addEventListener('click', () => {
     window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
+        top: 0,
+        behavior: 'smooth'
     });
-  });
+});
