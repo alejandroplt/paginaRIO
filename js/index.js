@@ -26,9 +26,10 @@ document.querySelector('.go-top-container').addEventListener('click', () => {
     });
 });
 
-/*FUNCION QUE PERMITE CERRAR EL NAVBAR CUANDO ESTA EN TAMAÑO DE CELULAR*/
+/*FUNCION QUE PERMITE CERRAR EL NAVBAR CUANDO ESTA EN TAMAÑO DE CELULAR
 $('.nav-item a').click(function(){
     var $target = $('.navbar-collapse');
-if($target.removeClass('in')){
-    $target.removeClass('in').height(0).css('overflow','hidden');                           }
-});
+    if($target.removeClass('in')){
+        $target.removeClass('in').height(0).css('overflow','hidden');
+    }
+});*/
