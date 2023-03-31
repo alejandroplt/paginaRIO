@@ -29,23 +29,23 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto"><!--ml-auto para texto a la derecha-->
-                    <li class="nav-item active">
+                <ul class="navbar-nav ml-auto "><!--ml-auto para texto a la derecha-->
+                    <li class="nav-item px-2">
                         <a class="nav-link" href="#inicio">Inicio</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item px-2">
                         <a class="nav-link" href="#productos">Productos</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item px-2">
                         <a class="nav-link" href="#nosotros">Nosotros</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item px-2">
                         <a class="nav-link" href="#servicios">Servicios</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item px-2">
                         <a class="nav-link" href="#marcas">Marcas</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item px-2">
                         <a class="nav-link" href="#contactanos">Contacto</a>
                     </li>
                 </ul>
@@ -368,27 +368,27 @@
         </div>
         <div class="container pb-5">
           <!--<form style="padding: 0rem 15rem 0rem 15rem; margin: 0rem;">-->
-          <form>
+          <form class="cotizacion" method="#"" >
             <div class="form-row">
               <div class="form-group col-md-6 input-group-lg">
                 <label for="nombre" class="text-dark lead">Nombre <label class="text-danger">*</label></label>
-                <input type="text" class="form-control bg-card-servicios" id="nombre" style="border-radius: 15px;">
+                <input type="text" class="form-control bg-card-servicios" id="nombre" style="border-radius: 15px;" required>
               </div>
               <div class="form-group col-md-6 input-group-lg">
                 <label for="telefono" class="text-dark lead">Teléfono <label class="text-danger">*</label></label>
-                <input type="text" class="form-control bg-card-servicios" id="telefono" style="border-radius: 15px;">
+                <input type="tel" class="form-control bg-card-servicios" id="telefono" style="border-radius: 15px;" required>
               </div>
             </div>
             <div class="form-group input-group-lg">
               <label for="email" class="text-dark lead">Correo electrónico <label class="text-danger">*</label></label>
-              <input type="email" class="form-control bg-card-servicios" id="email" style="border-radius: 15px;">
+              <input type="email" class="form-control bg-card-servicios" id="email" style="border-radius: 15px;" required>
             </div>
             <div class="form-group input-group-lg">
-              <label for="mensaje"class="text-dark lead">Mensaje <label class="text-danger">*</label></label>
-              <textarea class = "form-control bg-card-servicios" rows = "4" style="border-radius: 15px;"></textarea>
+              <label for="mensaje" class="text-dark lead">Mensaje <label class="text-danger">*</label></label>
+              <textarea class = "form-control bg-card-servicios" rows = "4" style="border-radius: 15px;" required></textarea>
             </div>
             <div class="text-center">
-                <a href="#" class="btn btn-dark badge-pill mt-3 px-5 hvr-grow px-5">Enviar</a>
+                <button href="#" class="btn btn-dark badge-pill mt-3 px-5 hvr-grow px-5">Enviar</button>
             </div>
           </form>
         </div>
@@ -443,4 +443,7 @@
 <script src="js/parallax.js-1.5.0/parallax.js"></script>
 
 <script src="js/index.js"></script>
+<script>
+
+</script>
 </html>

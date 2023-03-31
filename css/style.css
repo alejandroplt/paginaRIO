@@ -316,6 +316,12 @@ hr{
     hr{
         width: 10%;
     }
+
+    /*----------FORMULARIO COTIZACION--------*/
+    .cotizacion{
+        padding: 0rem 15rem 0rem 15rem; 
+        margin: 0rem;
+    }
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
