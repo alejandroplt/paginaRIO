@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="css/HoverCSS/css/hover-min.css">
     <!--ANIMATE ON SCROLL-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!---ALERTIFY JS-->
+    <link rel="stylesheet" href="js/alertifyjs/css/alertify.min.css" />
+    <link rel="stylesheet" href="js/alertifyjs/css/themes/default.min.css" />
 
     <link rel="shortcut icon" href="img/LogoPestana.jpg" />
     <title>REFINDOAX</title>
@@ -303,14 +306,7 @@
         </div>
       </div>
       <div class="row gx-5" data-aos="fade-up" >
-        <h2>SECCION DE COTIZACION</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa animi itaque exercitationem fugiat quas, omnis facilis cum nobis officia. Ab ad omnis odit. Nesciunt architecto qui tempora. Iure, animi delectus!</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa animi itaque exercitationem fugiat quas, omnis facilis cum nobis officia. Ab ad omnis odit. Nesciunt architecto qui tempora. Iure, animi delectus!</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa animi itaque exercitationem fugiat quas, omnis facilis cum nobis officia. Ab ad omnis odit. Nesciunt architecto qui tempora. Iure, animi delectus!</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa animi itaque exercitationem fugiat quas, omnis facilis cum nobis officia. Ab ad omnis odit. Nesciunt architecto qui tempora. Iure, animi delectus!</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa animi itaque exercitationem fugiat quas, omnis facilis cum nobis officia. Ab ad omnis odit. Nesciunt architecto qui tempora. Iure, animi delectus!</p>
-        
-        <!--<div class="slider mx-0">
+        <div class="slider mx-0">
           <div class="slide-track">
             <div class="slide">
               <img src="img/15.png" height="110" width="200" alt="">
@@ -358,8 +354,7 @@
               <img src="img/19.png" height="110" width="200" alt="">
             </div>
           </div>
-        </div>-->
-
+        </div>
       </div>
     </section>
 
@@ -374,37 +369,33 @@
                 </div>
           </div>
         </div>
-        <div class="container pb-5">
+        <div class="container pb-5" data-aos="fade-up">
           <!--<form style="padding: 0rem 15rem 0rem 15rem; margin: 0rem;">-->
-          <!--<form class="cotizacion" method="#"" >
+          <form class="cotizacion" action="https://formsubmit.co/alejandro.platas.02@gmail.com" method="POST" id="cotizaciones">
             <div class="form-row">
               <div class="form-group col-md-6 input-group-lg">
                 <label for="nombre" class="text-dark lead">Nombre <label class="text-danger">*</label></label>
-                <input type="text" class="form-control bg-card-servicios" id="nombre" style="border-radius: 15px;" required>
+                <input type="text" class="form-control bg-card-servicios" id="nombre" name="nombre" style="border-radius: 15px;" required>
               </div>
               <div class="form-group col-md-6 input-group-lg">
                 <label for="telefono" class="text-dark lead">Teléfono <label class="text-danger">*</label></label>
-                <input type="tel" class="form-control bg-card-servicios" id="telefono" style="border-radius: 15px;" required>
+                <input type="tel" class="form-control bg-card-servicios" id="telefono" name="telefono" style="border-radius: 15px;" required>
               </div>
             </div>
             <div class="form-group input-group-lg">
               <label for="email" class="text-dark lead">Correo electrónico <label class="text-danger">*</label></label>
-              <input type="email" class="form-control bg-card-servicios" id="email" style="border-radius: 15px;" required>
+              <input type="email" class="form-control bg-card-servicios" id="email" name="email" style="border-radius: 15px;" required>
             </div>
             <div class="form-group input-group-lg">
               <label for="mensaje" class="text-dark lead">Mensaje <label class="text-danger">*</label></label>
-              <textarea class = "form-control bg-card-servicios" rows = "4" style="border-radius: 15px;" required></textarea>
+              <textarea class = "form-control bg-card-servicios" rows = "4" id="mensaje" name="mensaje" style="border-radius: 15px;" required></textarea>
             </div>
             <div class="text-center">
-                <button href="#" class="btn btn-dark badge-pill mt-3 px-5 hvr-grow px-5">Enviar</button>
+                <button type="submit" class="btn btn-dark badge-pill mt-3 px-5 hvr-grow px-5">Enviar</button>
             </div>
-          </form>-->
-          <h2>SECCION DE COTIZACION</h2>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa animi itaque exercitationem fugiat quas, omnis facilis cum nobis officia. Ab ad omnis odit. Nesciunt architecto qui tempora. Iure, animi delectus!</p>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa animi itaque exercitationem fugiat quas, omnis facilis cum nobis officia. Ab ad omnis odit. Nesciunt architecto qui tempora. Iure, animi delectus!</p>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa animi itaque exercitationem fugiat quas, omnis facilis cum nobis officia. Ab ad omnis odit. Nesciunt architecto qui tempora. Iure, animi delectus!</p>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa animi itaque exercitationem fugiat quas, omnis facilis cum nobis officia. Ab ad omnis odit. Nesciunt architecto qui tempora. Iure, animi delectus!</p>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa animi itaque exercitationem fugiat quas, omnis facilis cum nobis officia. Ab ad omnis odit. Nesciunt architecto qui tempora. Iure, animi delectus!</p>
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+            <input type="hidden" name="_captcha" value="false">
+          </form>
         </div>
       </div>
     </section>
@@ -447,6 +438,8 @@
 <!--SIMPLE PARALLAX-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="js/parallax.js-1.5.0/parallax.js"></script>
+<!--ALERTIFY JS -->
+<script src="js/alertifyjs/alertify.min.js"></script>
 
 <script src="js/index.js"></script>
 </html>

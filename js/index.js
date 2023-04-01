@@ -33,3 +33,18 @@ $('.nav-item a').click(function(){
         $target.removeClass('in').height(0).css('overflow','hidden');
     }
 });*/
+
+
+/*FUNCIONAMINETO DEL FORMULARIO DE COTIZACIONES*/
+$('#cotizaciones').submit(function (ev) {
+    $.ajax({
+        type: $('#cotizaciones').attr('method'), 
+        url: $('#cotizaciones').attr('action'),
+        data: $('#cotizaciones').serialize(),
+        success: function (data){
+            $("#cotizaciones")[0].reset();
+            alertify.success('Mensaje enviado'); 
+        }
+    });
+    ev.preventDefault();
+});
