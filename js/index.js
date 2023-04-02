@@ -43,7 +43,8 @@ $('#cotizaciones').submit(function (ev) {
         data: $('#cotizaciones').serialize(),
         success: function (data){
             $("#cotizaciones")[0].reset();
-            alertify.success('Mensaje enviado'); 
+            alertify.set('notifier','position', 'Mensaje enviado');
+            alertify.success(alertify.get('notifier','position'));
         }
     });
     ev.preventDefault();
