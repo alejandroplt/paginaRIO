@@ -226,6 +226,14 @@ hr{
 }
 
 
+/*----COLOR MENSAJE--*/
+.alertify-notifier .ajs-message.ajs-success {
+    color: #fff;
+    background: var(--color-semiBlack) !important;
+    text-shadow: -1px -1px 0 rgba(0,0,0,.5);
+}
+
+
 
 /*MEDIA QUERYS*/
 /*Small devices (landscape phones, 576px and up)*/
