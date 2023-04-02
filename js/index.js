@@ -35,7 +35,7 @@ $('.nav-item a').click(function(){
 });*/
 
 
-/*FUNCIONAMINETO DEL FORMULARIO DE COTIZACIONES
+/*FUNCIONAMINETO DEL FORMULARIO DE COTIZACIONES*/
 $('#cotizaciones').submit(function (ev) {
     $.ajax({
         type: $('#cotizaciones').attr('method'), 
@@ -48,4 +48,4 @@ $('#cotizaciones').submit(function (ev) {
         }
     });
     ev.preventDefault();
-});*/
+});
