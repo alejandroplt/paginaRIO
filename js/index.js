@@ -42,9 +42,8 @@ $('#cotizaciones').submit(function (ev) {
         url: $('#cotizaciones').attr('action'),
         data: $('#cotizaciones').serialize(),
         success: function (data){
-            $("#cotizaciones")[0].reset();
-            alertify.set('notifier','position', 'Mensaje enviado');
-            alertify.success(alertify.get('notifier','position'));
+            alertify.set('notifier','position', 'bottom-left');
+            alertify.success('Mensaje enviado' + alertify.get('notifier','position'));
         }
     });
     ev.preventDefault();
