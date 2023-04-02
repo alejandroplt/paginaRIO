@@ -371,7 +371,7 @@
         </div>
         <div class="container pb-5" data-aos="fade-up">
           <!--<form style="padding: 0rem 15rem 0rem 15rem; margin: 0rem;">-->
-          <form class="cotizacion" action="https://formsubmit.co/alejandro.platas.02@gmail.com" method="POST" id="cotizaciones">
+          <form class="cotizacion" id="cotizaciones">
             <div class="form-row">
               <div class="form-group col-md-6 input-group-lg">
                 <label for="nombre" class="text-dark lead">Nombre <label class="text-danger">*</label></label>
@@ -442,4 +442,19 @@
 <script src="js/alertifyjs/alertify.min.js"></script>
 
 <script src="js/index.js"></script>
+
+<script>
+  $('#cotizaciones').submit(function (ev) {
+    $.ajax({
+        type: 'POST',
+        url: 'https://formsubmit.co/alejandro.platas.02@gmail.com',
+        data: $('#cotizaciones').serialize(),
+        success: function (data){
+            alertify.set('notifier','position', 'bottom-left');
+            alertify.success('Mensaje enviado' + alertify.get('notifier','position'));
+        }
+    });
+    ev.preventDefault();
+});
+</script>
 </html>
