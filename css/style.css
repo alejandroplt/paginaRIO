@@ -168,9 +168,14 @@ hr{
     width: 250px;
 }
 
+/*----------ESTILOS PARA SECCION COTIZACION-------*/
+.form-control {
+    border-radius: 15px !important;
+}
 
 
-/*---------ESTILOS PARA BOTON SUBIR ARRIBBA----*/
+
+/*---------ESTILOS PARA BOTON SUBIR RAPIDAMENTE----*/
 .go-top-container {
     position: fixed;
     bottom:2.3rem;
