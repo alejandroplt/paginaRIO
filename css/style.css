@@ -28,7 +28,7 @@ label{
 }*/
 
 /*------------ESTILOS INICIO SLIDER ------*/
-.carousel-item {
+.carousel-item-inicio {
     background-size: cover;
     background-position: center;
 }
@@ -244,7 +244,7 @@ hr{
 /*Small devices (landscape phones, 576px and up)*/
 @media (max-width: 576px) {
     /*------------ESTILOS INICIO SLIDER ------*/
-    .carousel-item {
+    .carousel-item-inicio{
         height: 50vh;
     }
     .carousel-caption{
@@ -283,7 +283,7 @@ hr{
 
 @media (min-width: 576px) {
     /*------------ESTILOS INICIO SLIDER ------*/
-    .carousel-item {
+    .carousel-item-inicio {
         height: 90vh;
     }
     .carousel-caption .text-RIO{
