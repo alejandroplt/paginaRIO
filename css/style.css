@@ -56,7 +56,7 @@ label{
 /*--- COLOR GENERAL SECCION --*/
 
 .subtitulos-bajoB{
-    color:var(--color-semiBlack);
+    color:var(--color-semiBlack) ;
 }
 
 /*----SECION PRODUCTOS--*/
