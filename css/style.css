@@ -269,7 +269,7 @@ hr{
     }
     .carousel-caption{
         position: absolute;
-        top: 20%;
+        top: 10%;
     }
     .carousel-caption p{
         font-size: .9rem;
