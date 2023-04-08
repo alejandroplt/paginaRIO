@@ -94,6 +94,7 @@ hr{
 .img-nosotros{
     margin-top: 20%;
 }
+
 .quienes{
     background-color: var(--color-somos);
     border-radius: 50px;
@@ -174,6 +175,12 @@ hr{
 }
 
 /*----------ESTILOS PARA LA SECCION DE CONTACTO----*/
+.a-contacto{
+    padding: 3rem !important;
+    margin-top: 1rem !important;
+    margin-bottom: 1.5rem !important;
+}
+
 .a-contacto a:link, a:visited, a:active, a:hover {
     text-decoration: none !important;
     color: #121212 !important;
@@ -309,7 +316,17 @@ hr{
         width: 31% !important;
     }
 
-    /*--------CONTACTO--------------*/
+    /*----------ESTILOS PARA LA SECCION DE CONTACTO----*/
+
+    .a-contacto{
+        padding: 2rem !important;
+        margin-top: .5rem !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .a-contacto p{
+        font-size: .8rem !important;
+    }
 
 }
 
