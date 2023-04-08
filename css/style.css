@@ -269,7 +269,7 @@ hr{
     }
     .carousel-caption{
         position: absolute;
-        top: 10%;
+        top: 20%;
     }
     .carousel-caption p{
         font-size: .9rem;
@@ -282,6 +282,15 @@ hr{
     }
     .carousel-caption .text-RIO{
         letter-spacing: 0px;
+    }
+
+    
+    .lead {
+        font-size: 1rem !important;
+    }
+
+    h2{
+        font-size: 1.7rem !important    ;
     }
 
     /*----------ESTILOS FRASE----------*/
