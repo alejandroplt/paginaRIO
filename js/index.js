@@ -26,10 +26,18 @@ document.querySelector('.go-top-container').addEventListener('click', () => {
     });
 });
 
-/*FUNCION QUE PERMITE CERRAR EL NAVBAR CUANDO ESTA EN TAMAÑO DE CELULAR*/
+/*FUNCION QUE PERMITE CERRAR EL NAVBAR CUANDO ESTA EN TAMAÑO DE CELULAR
+
 const navLinks = document.querySelectorAll('.nav-item')
 const menuToggle = document.getElementById('navbarNav')
-const bsCollapse = new bootstrap.Collapse(menuToggle)
+const bsCollapse = new bootstrap.Collapse(menuToggle);
 navLinks.forEach((l) => {
     l.addEventListener('click', () => { bsCollapse.toggle() })
-})
+})*/
+
+
+$('.navbar-nav>li>a').on('click', function(){
+const menuToggle = document.getElementById('navbarNav')
+const bsCollapse = new bootstrap.Collapse(menuToggle);
+    bsCollapse.toggle()
+});
