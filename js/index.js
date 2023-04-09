@@ -26,25 +26,10 @@ document.querySelector('.go-top-container').addEventListener('click', () => {
     });
 });
 
-/*FUNCION QUE PERMITE CERRAR EL NAVBAR CUANDO ESTA EN TAMAÑO DE CELULAR
-$('.nav-item a').click(function(){
-    var $target = $('.navbar-collapse');
-    if($target.removeClass('in')){
-        $target.removeClass('in').height(0).css('overflow','hidden');
-    }
-});*/
-
-
-/*FUNCIONAMINETO DEL FORMULARIO DE COTIZACIONES
-$('#cotizaciones').submit(function (ev) {
-    $.ajax({
-        type: $('#cotizaciones').attr('method'), 
-        url: $('#cotizaciones').attr('action'),
-        data: $('#cotizaciones').serialize(),
-        success: function (data){
-            alertify.set('notifier','position', 'bottom-left');
-            alertify.success('Mensaje enviado' + alertify.get('notifier','position'));
-        }
-    });
-    ev.preventDefault();
-});*/
+/*FUNCION QUE PERMITE CERRAR EL NAVBAR CUANDO ESTA EN TAMAÑO DE CELULAR*/
+const navLinks = document.querySelectorAll('.nav-item')
+const menuToggle = document.getElementById('navbarNav')
+const bsCollapse = new bootstrap.Collapse(menuToggle)
+navLinks.forEach((l) => {
+    l.addEventListener('click', () => { bsCollapse.toggle() })
+})
