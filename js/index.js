@@ -33,11 +33,33 @@ const menuToggle = document.getElementById('navbarNav')
 const bsCollapse = new bootstrap.Collapse(menuToggle);
 navLinks.forEach((l) => {
     l.addEventListener('click', () => { bsCollapse.toggle() })
-})*/
+})
+    $('.navbar-nav>li>a').on('click', function(){
+        console.log("hola")
+        const menuToggle = document.getElementById('navbarNav')
+        const bsCollapse = new bootstrap.Collapse(menuToggle);
+            bsCollapse.toggle()
+    });
 
 
-$('.navbar-nav>li>a').on('click', function(){
-const menuToggle = document.getElementById('navbarNav')
-const bsCollapse = new bootstrap.Collapse(menuToggle);
-    bsCollapse.toggle()
+$('.navbar-toggler').on('click', function(){
+    console.log("botonnav")
+    $('.navbar-nav>li>a').on('click', function(){
+        console.log("hola")
+        const menuToggle = document.getElementById('navbarNav')
+        const bsCollapse = new bootstrap.Collapse(menuToggle);
+            bsCollapse.toggle()
+    });
+});*/
+
+$(document).ready(function(){
+    const menuToggle = $("#navbar-toggler").css("display")
+    console.log(menuToggle)
+    if(menuToggle === 'block'){
+        $('.navbar-nav>li>a').on('click', function(){
+            const menuToggle = document.getElementById('navbarNav')
+            const bsCollapse = new bootstrap.Collapse(menuToggle);
+                bsCollapse.toggle()
+        });
+    }
 });
